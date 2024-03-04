@@ -9,7 +9,7 @@ from api.handlers import user_router
 #########################
 
 # create instance of the app
-app = FastAPI(title="luchanos-oxford-university")
+app = FastAPI(title="babim_school")
 
 # create the instance for the routes
 main_api_router = APIRouter()
