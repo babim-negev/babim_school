@@ -31,5 +31,14 @@ alembic revision --autogenerate -m "first db"
 ```
 5)  Накатываем миграции на бд
 ```code
-alembic revision --autogenerate -m "first db"   
+alembic upgrade head
 ```
+
+
+
+
+22222
+
+pytest проводить на версии ==0.18.3
+
+запускать тест через test_handlers.py
