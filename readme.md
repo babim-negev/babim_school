@@ -8,7 +8,7 @@
 
 #### Развертывание
 
-1) Создать файлы конфигурации командой 
+1) Создать файлы конфигурации командой
 ```console
 alembic init migration
 ```
@@ -27,7 +27,7 @@ sqlalchemy.url = postgresql://postgres:postgres@0.0.0.0:5433/*ваша_бд*
 
 4) Создаем миграции
 ```code
-alembic revision --autogenerate -m "first db"   
+alembic revision --autogenerate -m "first db"
 ```
 5)  Накатываем миграции на бд
 ```code
